@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1027px;
+    margin: 0 auto;
+}
+.text-centar{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.clearfix::after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+/*      start        manu        section      */
+.headerSection{
+    background-color: black;
+    padding: 7px 0;
+}
+.hederleft{
+    width: 30%;
+}
+.logo{
+    width: 70px;
+}
+.headerright{
+    width: 70%;
+}
+.menu ul{
+    text-transform: uppercase;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 17px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: #1fad96;
+}
+/* deopdown menu start */
+li .dropdown{
+    position: absolute;
+    background-color: black;
+    width: 175px;
+    visibility: hidden;
+    transition: .7s;
+}
+.menu ul li::hover .dropdown{
+    visibility: visible;
+}
+ li .dropdown li{
+    display: block;
+}
+li .dropdown li a{
+    display: block;
+}
+
+/*    banner       section       start   */
+.bannerSection{
+    background-image: url(https://i.ibb.co/SV3S5vy/matthias-gotzke-q-As-Oh-Em-Hgs-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding: 200px 0;
+    color: #130f40;
+    font-size : 20px;
+}
+.bannerSection h5{
+    margin: 20px 0;
+    color: #30336b;
+}
+.btn{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 17px 27px;
+    display : inline-block;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    transition: .7s;
+}
+.btn:hover{
+    background-color: red;
+}
+/* about        section       start    */
+.aboutSection{
+    text-align: center;
+    color: white;
+    background-color:rgb(22, 82, 61) ;
+    padding: 70px 0;
+}
+.aboutSection h2{
+    text-decoration: underline;
+    font-size: 37px;
+    margin-bottom: 37px;
+}
+
+.para{
+    width: 50%;
+    font-size: 17px;
+    text-align: left;
+    word-spacing: 5px;
+}
+.image img{
+    width: 200px;
+    border-radius: 50%;
+}
+/* service    section      start   */
+.serviceSection{
+    background-color: #473d32;
+    color: white;
+    padding: 70px 0;
+}
+.service h1{
+    text-decoration: underline;
+    font-size: 50px;
+}
+.service h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.singleService{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    margin: 0 20px;
+    box-sizing: border-box;
+    padding: 37px;
+    margin-top: 37px;
+    border-radius: 10px;
+}
+.icon{
+    width: 10%;
+    font-size: 27px;
+    color: #1fad96;
+}
+.servicetext{
+    width: 90%;
+    color: black;
+    margin-left: 5px;
+}
+.servicetext h4{
+    margin-bottom: 10px;
+}
+/* work        service           start */
+.workSection{
+    background-color: #c1bcc2;
+    padding: 50px;
+}
+.worktitle{
+    color: rgb(53, 8, 53);
+}
+.worktitle h5{
+    margin: 20px;
+}
+.work{
+    width: 47%;
+    border: 1px solid white;
+    margin: 1%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.work img{
+    width: 475px;
+}
+.work h4{
+    color: rgb(53, 8, 53);
+}
+.work h5{
+color: hotpink;
+}
+.singlegallery{
+    width: 20%;
+    margin: 20px;
+}
+.singlegallery{
+    max-width: 100%;
+}
+/* team           section            start */
+.teamSection{
+    padding: 50px 0;
+    background-color:#f4d499;
+}
+.teamtext{
+    text-decoration: underline;
+    font-size: 20px;
+    color: cyan;
+}
+.singleimg{
+    width: 30%;
+    margin: 1%;
+    padding: 17px;
+    box-sizing: border-box;
+}
+.singleimg ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: cyan;
+    border-radius: 50px;
+}
+.quesSection{
+    background-color: grey;
+    padding: 101px;
+    color: white;
+}
+.ques h1{
+    font-size: 33px;
+}
+.ques p{
+    width: 70%;
+    margin:20px auto;
+    font-size: 20px;
+}
+.btn-bottom a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 13px 23px;
+    background-color: cyan;
+    border-radius: 10px;
+    transition: .7s;
+}
+.btn-bottom a:hover{
+    background-color: hotpink;
+}
+/* footer          section        start   */
+.footerSection{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 23px;
+    font-size: 17px;
+}
