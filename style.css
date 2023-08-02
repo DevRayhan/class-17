@@ -29,7 +29,9 @@
 img{
     max-width: 100%;
 }
+
 /*      start        manu        section      */
+
 .headerSection{
     background-color: black;
     padding: 7px 0;
@@ -61,25 +63,39 @@ img{
 .menu ul li a:hover{
     color: #1fad96;
 }
+
 /* deopdown menu start */
+
 li .dropdown{
     position: absolute;
     background-color: black;
     width: 175px;
     visibility: hidden;
+    visibility: 0;
     transition: .7s;
+    top: 177%;
+    transition: 1;
+    opacity: 0;
 }
-.menu ul li::hover .dropdown{
+.menu ul li:hover .dropdown{
     visibility: visible;
+    opacity: 1;
+    top: 117%;
 }
  li .dropdown li{
     display: block;
+    border-top: 1px wheat solid;
 }
 li .dropdown li a{
     display: block;
+    text-align: center;
+}
+li .dropdown li a:hover{
+    padding-left: 30px;
 }
 
 /*    banner       section       start   */
+
 .bannerSection{
     background-image: url(https://i.ibb.co/SV3S5vy/matthias-gotzke-q-As-Oh-Em-Hgs-unsplash.jpg);
     background-repeat:no-repeat;
@@ -107,7 +123,9 @@ li .dropdown li a{
 .btn:hover{
     background-color: red;
 }
+
 /* about        section       start    */
+
 .aboutSection{
     text-align: center;
     color: white;
@@ -130,7 +148,9 @@ li .dropdown li a{
     width: 200px;
     border-radius: 50%;
 }
+
 /* service    section      start   */
+
 .serviceSection{
     background-color: #473d32;
     color: white;
@@ -155,19 +175,21 @@ li .dropdown li a{
     border-radius: 10px;
 }
 .icon{
-    width: 10%;
+    width: 7%;
     font-size: 27px;
     color: #1fad96;
 }
 .servicetext{
-    width: 90%;
+    width: 75%;
     color: black;
     margin-left: 5px;
 }
 .servicetext h4{
     margin-bottom: 10px;
 }
+
 /* work        service           start */
+
 .workSection{
     background-color: #c1bcc2;
     padding: 50px;
@@ -201,7 +223,9 @@ color: hotpink;
 .singlegallery{
     max-width: 100%;
 }
+
 /* team           section            start */
+
 .teamSection{
     padding: 50px 0;
     background-color:#f4d499;
@@ -249,7 +273,9 @@ color: hotpink;
 .btn-bottom a:hover{
     background-color: hotpink;
 }
-/* footer          section        start   */
+
+/* footer           section         start   */
+
 .footerSection{
     background-color: black;
     text-align: center;
