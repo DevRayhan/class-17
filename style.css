@@ -220,9 +220,11 @@ color: hotpink;
     width: 20%;
     margin: 20px;
 }
-.singlegallery{
-    max-width: 100%;
+.singlegallery img{
+    height: 225px;
+    width: 225px;
 }
+
 
 /* team           section            start */
 
