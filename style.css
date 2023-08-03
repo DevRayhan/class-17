@@ -74,13 +74,15 @@ li .dropdown{
     visibility: 0;
     transition: .7s;
     top: 177%;
-    transition: 1;
     opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
 }
 .menu ul li:hover .dropdown{
     visibility: visible;
     opacity: 1;
     top: 117%;
+    transform: scaleY(1);
 }
  li .dropdown li{
     display: block;
