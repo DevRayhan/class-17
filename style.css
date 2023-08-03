@@ -120,10 +120,24 @@ li .dropdown li a:hover{
     color: white;
     font-size: 20px;
     position: relative;
-    transition: .7s;
+    z-index: 1;
 }
-.btn:hover{
+.btn::after{
+    content: "";
     background-color: red;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+    transition: .7s;
+
+}
+.btn:hover.btn::after{
+    width: 100%;
 }
 
 /* about        section       start    */
