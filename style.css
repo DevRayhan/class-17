@@ -189,6 +189,10 @@ li .dropdown li a:hover{
     padding: 37px;
     margin-top: 37px;
     border-radius: 10px;
+    transition: .7s;
+}
+.singleService:hover{
+    background-color: skyblue;
 }
 .icon{
     width: 7%;
@@ -266,6 +270,10 @@ color: hotpink;
     background-color: cyan;
     border-radius: 50px;
 }
+.singleimg ul li:hover{
+    background-color: white;
+}
+/* ques                section           start           */
 .quesSection{
     background-color: grey;
     padding: 101px;
